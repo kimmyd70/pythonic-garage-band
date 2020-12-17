@@ -1,5 +1,5 @@
 class Band:
-    def __init__(self, name, members=None):
+    def __init__(self, name='The Band', members=None):
         self.name = name
         self.members = members
 
