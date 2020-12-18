@@ -3,7 +3,8 @@ import json
 import pytest
 import yaml
 
-from pythonic_garage_band.band import Band, Musician, Guitarist, Bassist, Drummer
+from pythonic_garage_band.pythonic_garage_band import Band
+# , Musician, Guitarist, Bassist, Drummer
 
 
 def test_version():
@@ -16,17 +17,17 @@ def test_band_name():
 
     assert nirvana.name == "Nirvana"
 
-# def test_band_str():
-#     nirvana = Band("Nirvana", [])
-#     actual = str(nirvana)
-#     expected = "The band Nirvana"
-#     assert actual == expected
+def test_band_str():
+    nirvana = Band("Nirvana", [])
+    actual = str(nirvana)
+    expected = "The band Nirvana"
+    assert actual == expected
 
-# def test_band_repr():
-#     nirvana = Band("Nirvana", [])
-#     actual = repr(nirvana)
-#     expected = "Band instance. name=Nirvana, members=[]"
-#     assert actual == expected
+def test_band_repr():
+    nirvana = Band("Nirvana", [])
+    actual = repr(nirvana)
+    expected = "Band instance. name=Nirvana, members=[]"
+    assert actual == expected
 
 # @pytest.mark.skip("pending")
 # def test_guitarist_str():

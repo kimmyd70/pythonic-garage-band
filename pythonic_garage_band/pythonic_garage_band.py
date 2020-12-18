@@ -10,14 +10,14 @@ class Band:
         return f"Band instance. name={self.name}, members={self.members}"
 
 
-class Musician:
+class Musician(Band):
     pass
 
-class Guitarist:
+class Guitarist(Band):
     pass
 
-class Bassist:
+class Bassist(Band):
     pass
 
-class Drummer:
+class Drummer(Band):
     pass

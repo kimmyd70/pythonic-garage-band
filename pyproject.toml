@@ -6,8 +6,9 @@ authors = ["KIMBERLY DAMALAS <kimatcamp@yahoo.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+pytest = "^6.2.1"
+PyYAML = "^5.3.1"
 
-[tool.poetry.dev-dependencies]
 
 
 [build-system]
