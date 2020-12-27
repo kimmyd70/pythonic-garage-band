@@ -1,10 +1,11 @@
 from pythonic_garage_band import __version__
+
 import json
 import pytest
 import yaml
 
-from pythonic_garage_band.pythonic_garage_band import Band
-# , Musician, Guitarist, Bassist, Drummer
+from pythonic_garage_band.pythonic_garage_band import Band,
+Musician, Guitarist, Bassist, Drummer
 
 
 def test_version():
